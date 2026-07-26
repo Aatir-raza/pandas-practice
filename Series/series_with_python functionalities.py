@@ -1,4 +1,4 @@
-from read_csv import subs
+from Series.read_csv import subs
 # len/type/dir/sorted/max/min
 print(len(subs))
 print(type(subs))

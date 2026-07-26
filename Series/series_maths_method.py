@@ -1,4 +1,4 @@
-from read_csv import subs,s
+from Series.read_csv import subs,s
 # count 
 print(s.count())
 # sum->product

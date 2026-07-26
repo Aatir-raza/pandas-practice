@@ -3,7 +3,7 @@ x=pd.Series([23,43,44,55,61,10])
 print(x[1])
 
 # slicing 
-from read_csv import s
+from Series.read_csv import s
 print(s[5:16])
 # negative slicing
 print(s[-5:16])

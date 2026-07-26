@@ -7,7 +7,6 @@ students_data=[
   [499,80,20]
 ]
 print(pd.DataFrame(students_data,columns=['iq','marks','package']))
-
 #using dicts
 import pandas as pd 
 students_dicts={
@@ -15,7 +14,9 @@ students_dicts={
   'marks':[78,34,43,54],
   'package':[43,434,435,56]
 }
-print(pd.DataFrame(students_dicts))
+a=pd.DataFrame(students_dicts)
+print(a)
 
-# using read_csv
-print(pd.read_csv("C:\\Users\\Homes\\Desktop\\PANDAS\\movies.csv"))
+# using read csv
+s=(pd.read_csv( r"C:\Users\Homes\Desktop\PANDAS\dataframe\movies.csv"))
+print(s)

@@ -17,3 +17,5 @@ A=(a[a['TossWinner']== a['WinningTeam']].shape[0]/a.shape[0])*100
 print(A)
 
 
+
+
